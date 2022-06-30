@@ -1,0 +1,17 @@
+$menu: #706458;
+$title: #A06056;
+$text: rgba(112, 100, 88, 0.9);
+$title-section: #706458;
+
+%title-font {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
